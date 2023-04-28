@@ -11,7 +11,7 @@ header{
     justify-content: center;
     width: 100%;
     background: linear-gradient(180deg,#0d0227 0%, #fdfbff 100%);
-    height: 50px;
+    height: 65px;
     justify-content: space-between;
 
  }
@@ -20,10 +20,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 2px;
     margin-left: 30px;
-    width:40px;
-    height: 40px;
+    width:300px;
+    height: 60px;
+    background-color: #f70303;
+    border-radius: 20px;
 }
 
 .menu{
@@ -35,13 +36,13 @@ header{
 
 .menu1{  
     margin-right: 25px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #1f0533;   
+    color: #000000;   
     border-radius: 2px;
     background-color: #ffffff;
     height: 20px;
@@ -68,19 +69,36 @@ header{
     display: flex;
     position: absolute;
     margin-top: -475px;
-    color: #f70303;
+    color: #c2bfc5;
     
 
   
 }
 .text1{
-    width: 17%;
-    margin-left: 81%;
+    width: 19%;
+    margin-left: 80.5%;
     font-size: 31px;
     position: absolute;
     margin-top: -475px;
-    color: #f70303;
+    color: #c2bfc5;
   
+}
+
+.botão{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f70303;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: #c2bfc5;
+    width: 100px;
+    height: 20px;
+    border-radius: 2px;
+    margin-top: 10px;
+   
+    
 }
 
 .icon{
@@ -96,7 +114,7 @@ header{
 
 .footer.footer{
     width: 100%;
-    height: 100%;
+    height: 250px;
     margin-top: -4px;
     position: relative;
     display: flex;
@@ -115,6 +133,7 @@ header{
 }
 
 .footer.footer .container{
+    margin-top: -100px;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -126,19 +145,19 @@ header{
 }
 
 .footer h2{
-    color:  #1f0533;
+    color:  #000000;
 }
 
 .footer p{
     font-size: 15px;
-    color: #32243d;
+    color: #000000;
 }
 .sobre-nos{
     margin-left: 150px;
 }
 
 .rede-sociais{
-    color: #1f0533;
+    color: #000000;
     margin-left: 30px;
 }
 
@@ -148,13 +167,13 @@ header{
     font-size: 20px;
     line-height: 40px;
     margin: 0px 2px 0;
-    color: #1f0533;
+    color: #000000;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .rede-sociais .fa-facebook-f:hover{
-    color:#c0b8c6;
+    color:#e90b0b;
     transform: translateY(-9px);
 }
 
@@ -164,13 +183,13 @@ header{
     font-size: 20px;
     line-height: 40px;
     margin: 0px 2px 0;
-    color: #1f0533;
+    color: #000000;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .rede-sociais .fa-twitter:hover{
-    color:#c0b8c6;
+    color:#e90b0b;
     transform: translateY(-9px);
 }
 
@@ -180,13 +199,13 @@ header{
     font-size: 20px;
     line-height: 40px;
     margin: 0px 2px 0;
-    color: #1f0533;
+    color: #000000;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .rede-sociais .fa-instagram:hover{
-    color:#c0b8c6;
+    color:#e90b0b;
     transform: translateY(-9px);
 }
 
@@ -196,13 +215,13 @@ header{
     font-size: 20px;
     line-height: 40px;
     margin: 0px 2px 0;
-    color: #1f0533;
+    color: #000000;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .rede-sociais .fa-whatsapp:hover{
-    color:#c0b8c6;
+    color:#e90b0b;
     transform: translateY(-9px);
 }
 
@@ -212,7 +231,7 @@ header{
     font-size: 20px;
     line-height: 40px;
     margin: 0px 2px 0;
-    color: #1f0533;
+    color: #000000;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -223,5 +242,6 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: -2%;
-    color:#1f0533;
+    color:#000000;
+    
 }

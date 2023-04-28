@@ -50,7 +50,7 @@ header{
 }
 
 .fundo-main{
-    
+   background-color: #125269; 
 }
 .fundo{
     position: relative;
@@ -58,13 +58,14 @@ header{
     height: 700px;
 }
 
-.text-main{
-    
+.logo1{
+display: flex;
+position: relative;
 
 }
 .text{
-    font-size: 31px;
-    margin-left: 30px;
+    font-size: 31.1px;
+    margin-left: 80px;
     width: 17%;
     display: flex;
     position: absolute;
@@ -244,4 +245,7 @@ header{
     margin-top: -1.6%;
     color:#000000;
     
+}
+.container{
+
 }
